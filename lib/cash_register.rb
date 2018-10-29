@@ -12,7 +12,7 @@ class CashRegister
     self.total += price * quantity
 
     quantity.times do
-      items.push("title")
+      items.push(title)
     end
   end
 
