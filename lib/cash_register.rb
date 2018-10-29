@@ -15,8 +15,9 @@ class CashRegister
 
     quantity.times do
       items << title
-    end  
+    end
 
+      last_items = price * quantity
   end
 
   def apply_discount
@@ -27,6 +28,7 @@ class CashRegister
           "There is no discount to apply."
     end
   end
+
 
 
 end
