@@ -15,7 +15,7 @@ class CashRegister
       if @discount != 0
         self.total = (total * ((discount.to_f)/100))
         
-
+    end
   end
 
 end
