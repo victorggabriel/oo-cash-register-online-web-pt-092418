@@ -16,7 +16,7 @@ class CashRegister
       items << title
     end
 
-      last_items = price * quantity
+      self.last_items = price * quantity
   end
 
   def apply_discount
