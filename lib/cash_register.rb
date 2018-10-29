@@ -16,7 +16,7 @@ class CashRegister
         self.total = (total * ((discount.to_f)/100))
 
       else 
-        
+
     end
   end
 
